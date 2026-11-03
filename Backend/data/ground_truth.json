@@ -1,0 +1,714 @@
+{
+  "claims": [
+    {
+      "claim_number": "CLM-2026-0001",
+      "scenario": "clean",
+      "policy": {
+        "policy_number": "MOT-2026-0001",
+        "start_date": "2026-05-06T10:00:00",
+        "sum_insured": "700000.00",
+        "deductible": "1000.00",
+        "copay_percent": "0.00",
+        "vehicle_year": 2023
+      },
+      "loss_date": "2026-07-05T10:00:00",
+      "claimed_amount": "50000.00",
+      "estimate": {
+        "parts_metal": 30000,
+        "parts_other": 8000,
+        "labour": 12000,
+        "stated_total": 50000
+      },
+      "documents": [
+        {
+          "doc_type": "photo_front",
+          "image_hash": "827ab585ec491af6",
+          "file_hash": "1250161cb655ff823f90e049ef1a7c29e8fc12d0df55ec38415d5aed00985e38",
+          "taken_at": "2026-07-05T12:00:00"
+        },
+        {
+          "doc_type": "photo_rear",
+          "image_hash": "9d3c26d9c9265a17",
+          "file_hash": "c2b7c9515e478e87c6cff68a26a2d7ee03cc47a68964854937c769b94111624c",
+          "taken_at": "2026-07-05T12:00:00"
+        },
+        {
+          "doc_type": "photo_left",
+          "image_hash": "9c33c6696d663199",
+          "file_hash": "b222a73b339730e1ca46217556493056b1f3d4a7a2a47012b54b0bb21c4da629",
+          "taken_at": "2026-07-05T12:00:00"
+        },
+        {
+          "doc_type": "photo_right",
+          "image_hash": "990d6473f2f964e0",
+          "file_hash": "afc6d70c3e1db6bd7c26ec947321b3adef520fea87b6d7f3657a66b4a47ce999",
+          "taken_at": "2026-07-05T12:00:00"
+        },
+        {
+          "doc_type": "photo_closeup",
+          "image_hash": "921f6ec0f23f89e0",
+          "file_hash": "93336403158779323390537685ae6df12a7635e3bb1121555ce3b7c9934c9ab2",
+          "taken_at": "2026-07-05T12:00:00"
+        }
+      ],
+      "expected": {
+        "flags": [],
+        "total_loss": false,
+        "eligible_amount": "38500.00",
+        "payable": "37500.00"
+      }
+    },
+    {
+      "claim_number": "CLM-2026-0002",
+      "scenario": "reused_image_source",
+      "policy": {
+        "policy_number": "MOT-2026-0002",
+        "start_date": "2026-05-06T10:00:00",
+        "sum_insured": "300000.00",
+        "deductible": "5000.00",
+        "copay_percent": "0.00",
+        "vehicle_year": 2023
+      },
+      "loss_date": "2026-06-20T10:00:00",
+      "claimed_amount": "36000.00",
+      "estimate": {
+        "parts_metal": 22000,
+        "parts_other": 5000,
+        "labour": 9000,
+        "stated_total": 36000
+      },
+      "documents": [
+        {
+          "doc_type": "photo_front",
+          "image_hash": "8b6893b5f4424e9e",
+          "file_hash": "11e143a88133a4b849ab9fe54001a416b96fd95c0c1e458e3aa054e58459b68a",
+          "taken_at": "2026-06-20T12:00:00"
+        },
+        {
+          "doc_type": "photo_rear",
+          "image_hash": "bee40ec1999a3173",
+          "file_hash": "02affc52b812137ac19ef2fc2c83b9e8adf23cdfadba8286185f5a7fbaa9da2f",
+          "taken_at": "2026-06-20T12:00:00"
+        },
+        {
+          "doc_type": "photo_left",
+          "image_hash": "906864d9965ed9e5",
+          "file_hash": "862f5406f4f88ad230a21a35eb16d00def43b24c16f4e8386d6851b3e3630d16",
+          "taken_at": "2026-06-20T12:00:00"
+        },
+        {
+          "doc_type": "photo_right",
+          "image_hash": "b56cb04d921bcacb",
+          "file_hash": "e852b6cc14480b4e705c993f093350c38a58560a1b8134ac90a4ee3f02ff49c2",
+          "taken_at": "2026-06-20T12:00:00"
+        },
+        {
+          "doc_type": "photo_closeup",
+          "image_hash": "e33332eb2939e306",
+          "file_hash": "1dd90b4200413648e478727e846bc5c4a31c0357e1d8bfdec8899f2d4d5cc80f",
+          "taken_at": "2026-06-20T12:00:00"
+        }
+      ],
+      "expected": {
+        "flags": [
+          "reused_image"
+        ],
+        "total_loss": false,
+        "eligible_amount": "28000.00",
+        "payable": "23000.00"
+      }
+    },
+    {
+      "claim_number": "CLM-2026-0003",
+      "scenario": "clean",
+      "policy": {
+        "policy_number": "MOT-2026-0003",
+        "start_date": "2026-05-06T10:00:00",
+        "sum_insured": "900000.00",
+        "deductible": "1000.00",
+        "copay_percent": "0.00",
+        "vehicle_year": 2022
+      },
+      "loss_date": "2026-07-15T10:00:00",
+      "claimed_amount": "65000.00",
+      "estimate": {
+        "parts_metal": 40000,
+        "parts_other": 10000,
+        "labour": 15000,
+        "stated_total": 65000
+      },
+      "documents": [
+        {
+          "doc_type": "photo_front",
+          "image_hash": "f3992c52a1263cdb",
+          "file_hash": "466ed357c08a622c83ae41ddbb7be4268aaf4c851f2a1e6bda1a7df0c6d80a8a",
+          "taken_at": "2026-07-15T12:00:00"
+        },
+        {
+          "doc_type": "photo_rear",
+          "image_hash": "f099adee5036a9c4",
+          "file_hash": "31a783ff70131bb38a1461a5ae0ef11ee67aef7b6e3dd2b69a6666425b12bfb3",
+          "taken_at": "2026-07-15T12:00:00"
+        },
+        {
+          "doc_type": "photo_left",
+          "image_hash": "f23c14c2cfed5942",
+          "file_hash": "65ff0d0ba2ce1055b2f6f50526eefb69540f3427b189431ac30110f583e4adfb",
+          "taken_at": "2026-07-15T12:00:00"
+        },
+        {
+          "doc_type": "photo_right",
+          "image_hash": "d3d0561f6ce0c936",
+          "file_hash": "831590d5564530c396fbd7e8810fba423e60f6cfc2df99aaf0d9e41f88014690",
+          "taken_at": "2026-07-15T12:00:00"
+        },
+        {
+          "doc_type": "photo_closeup",
+          "image_hash": "b43d6b6446ca4d1d",
+          "file_hash": "6bab71686b6b4638bb8a34ba3dd5eacf4352bf56561f442d7e12aaf0c231cfe1",
+          "taken_at": "2026-07-15T12:00:00"
+        }
+      ],
+      "expected": {
+        "flags": [],
+        "total_loss": false,
+        "eligible_amount": "46000.00",
+        "payable": "45000.00"
+      }
+    },
+    {
+      "claim_number": "CLM-2026-0004",
+      "scenario": "clean",
+      "policy": {
+        "policy_number": "MOT-2026-0004",
+        "start_date": "2026-05-06T10:00:00",
+        "sum_insured": "500000.00",
+        "deductible": "5000.00",
+        "copay_percent": "0.00",
+        "vehicle_year": 2019
+      },
+      "loss_date": "2026-08-04T10:00:00",
+      "claimed_amount": "30000.00",
+      "estimate": {
+        "parts_metal": 18000,
+        "parts_other": 4000,
+        "labour": 8000,
+        "stated_total": 30000
+      },
+      "documents": [
+        {
+          "doc_type": "photo_front",
+          "image_hash": "c9d9c9cd36272632",
+          "file_hash": "47fa6116cace0fab653fb4b9daf572fc363b50c08432a01ae73bce796f74ee6d",
+          "taken_at": "2026-08-04T12:00:00"
+        },
+        {
+          "doc_type": "photo_rear",
+          "image_hash": "cb9e63ed95210473",
+          "file_hash": "2f30ddef15285d24f95b8116c6d3814d900c151781511a2ce098a3d723847c07",
+          "taken_at": "2026-08-04T12:00:00"
+        },
+        {
+          "doc_type": "photo_left",
+          "image_hash": "f29c2f4991b2cc65",
+          "file_hash": "22ab1ee0fa70d48442898f1fb14d0facc4c881194b625dd566c0e81837deb4ca",
+          "taken_at": "2026-08-04T12:00:00"
+        },
+        {
+          "doc_type": "photo_right",
+          "image_hash": "9e27e1c1621e9db4",
+          "file_hash": "6f7b1506b65ee23fca70b8a60f6be1a526b559f0f32dd46649147a41c16e9ab1",
+          "taken_at": "2026-08-04T12:00:00"
+        },
+        {
+          "doc_type": "photo_closeup",
+          "image_hash": "e5dab6836a319447",
+          "file_hash": "fc14ac0b208bb8dbc879013e99fdd35a8f623e1d47a1ead0a0ce58c366900f8f",
+          "taken_at": "2026-08-04T12:00:00"
+        }
+      ],
+      "expected": {
+        "flags": [],
+        "total_loss": false,
+        "eligible_amount": "20800.00",
+        "payable": "15800.00"
+      }
+    },
+    {
+      "claim_number": "CLM-2026-0005",
+      "scenario": "clean",
+      "policy": {
+        "policy_number": "MOT-2026-0005",
+        "start_date": "2026-05-06T10:00:00",
+        "sum_insured": "500000.00",
+        "deductible": "5000.00",
+        "copay_percent": "0.00",
+        "vehicle_year": 2022
+      },
+      "loss_date": "2026-09-03T10:00:00",
+      "claimed_amount": "87000.00",
+      "estimate": {
+        "parts_metal": 55000,
+        "parts_other": 12000,
+        "labour": 20000,
+        "stated_total": 87000
+      },
+      "documents": [
+        {
+          "doc_type": "photo_front",
+          "image_hash": "f058b126cc46cf8f",
+          "file_hash": "284f2c9c122f51d02e0b20ec369291ff315113fdda842c5dbf121e2bd5f60e77",
+          "taken_at": "2026-09-03T12:00:00"
+        },
+        {
+          "doc_type": "photo_rear",
+          "image_hash": "9e5326b0f2ae138d",
+          "file_hash": "e04d5fbaffbef5b72a00b990e4d36056fd4d6705905e54d78ae4f7712ba08d2c",
+          "taken_at": "2026-09-03T12:00:00"
+        },
+        {
+          "doc_type": "photo_left",
+          "image_hash": "f0e0ad3f4bc25a0e",
+          "file_hash": "c55be7fe9fccb9a826c8b6f1964d3bf444bec5284e53a3b95dbac0ae8e629d11",
+          "taken_at": "2026-09-03T12:00:00"
+        },
+        {
+          "doc_type": "photo_right",
+          "image_hash": "ccce0d3312c9ecdc",
+          "file_hash": "5c007a3f6666bfae8100a2e3505d459a39a68cb3bff9f4c4679225f203768f96",
+          "taken_at": "2026-09-03T12:00:00"
+        },
+        {
+          "doc_type": "photo_closeup",
+          "image_hash": "c6109678729ded63",
+          "file_hash": "18969a06ed35547477a0ef545e59ac60a698f923c42bd4f4d07281a723455d23",
+          "taken_at": "2026-09-03T12:00:00"
+        }
+      ],
+      "expected": {
+        "flags": [],
+        "total_loss": false,
+        "eligible_amount": "61750.00",
+        "payable": "56750.00"
+      }
+    },
+    {
+      "claim_number": "CLM-2026-0006",
+      "scenario": "early_claim",
+      "policy": {
+        "policy_number": "MOT-2026-0006",
+        "start_date": "2026-05-06T10:00:00",
+        "sum_insured": "900000.00",
+        "deductible": "5000.00",
+        "copay_percent": "0.00",
+        "vehicle_year": 2019
+      },
+      "loss_date": "2026-05-16T10:00:00",
+      "claimed_amount": "42000.00",
+      "estimate": {
+        "parts_metal": 26000,
+        "parts_other": 6000,
+        "labour": 10000,
+        "stated_total": 42000
+      },
+      "documents": [
+        {
+          "doc_type": "photo_front",
+          "image_hash": "cb5bc6c46966318d",
+          "file_hash": "c8a4042355078195ec8fe96ab42e4b8c75a453e8396266240601027ecc5b24d3",
+          "taken_at": "2026-05-16T12:00:00"
+        },
+        {
+          "doc_type": "photo_rear",
+          "image_hash": "8f39865a69bdc846",
+          "file_hash": "d0544cb00900fd9441c467be191ec8d3e8b8b70eecba7ebb610a2a5c6b919018",
+          "taken_at": "2026-05-16T12:00:00"
+        },
+        {
+          "doc_type": "photo_left",
+          "image_hash": "bbf86d07c4873252",
+          "file_hash": "484970dec036ec0ef50ee95213472f5171402db67508dec08352e2e8df940343",
+          "taken_at": "2026-05-16T12:00:00"
+        },
+        {
+          "doc_type": "photo_right",
+          "image_hash": "bd1f9f1cc461f0c0",
+          "file_hash": "bebe27309c4957b46692fdb6826618e0a06e7d36db6a0f8ecc1fc142e5775a39",
+          "taken_at": "2026-05-16T12:00:00"
+        },
+        {
+          "doc_type": "photo_closeup",
+          "image_hash": "b67c09c8ec07b339",
+          "file_hash": "167e9e4b633943c7b1117c23003d96760f19bc70066a3f215db4efdef4d6f3c8",
+          "taken_at": "2026-05-16T12:00:00"
+        }
+      ],
+      "expected": {
+        "flags": [
+          "early_claim"
+        ],
+        "total_loss": false,
+        "eligible_amount": "28600.00",
+        "payable": "23600.00"
+      }
+    },
+    {
+      "claim_number": "CLM-2026-0007",
+      "scenario": "total_mismatch",
+      "policy": {
+        "policy_number": "MOT-2026-0007",
+        "start_date": "2026-05-06T10:00:00",
+        "sum_insured": "500000.00",
+        "deductible": "5000.00",
+        "copay_percent": "0.00",
+        "vehicle_year": 2024
+      },
+      "loss_date": "2026-07-25T10:00:00",
+      "claimed_amount": "85000.00",
+      "estimate": {
+        "parts_metal": 45000,
+        "parts_other": 9000,
+        "labour": 16000,
+        "stated_total": 85000
+      },
+      "documents": [
+        {
+          "doc_type": "photo_front",
+          "image_hash": "d3d666362c899993",
+          "file_hash": "f22af6a457a9b58f1a2e754d3f13872da37195d9dfd02cefa022fad10fdecd00",
+          "taken_at": "2026-07-25T12:00:00"
+        },
+        {
+          "doc_type": "photo_rear",
+          "image_hash": "b733238d48ccdcd8",
+          "file_hash": "fd19b59c0e5fec56ef8eeaaf7c5dcfaa88915d3ff7db1160fbd779370d4d0012",
+          "taken_at": "2026-07-25T12:00:00"
+        },
+        {
+          "doc_type": "photo_left",
+          "image_hash": "a92b5af4155af10b",
+          "file_hash": "2a31db2dc1fd12784dd9bce9c40f53522f39f777a9a4d0a40bc838b62f8addae",
+          "taken_at": "2026-07-25T12:00:00"
+        },
+        {
+          "doc_type": "photo_right",
+          "image_hash": "a91fc724528fb4d1",
+          "file_hash": "fe178347604279541c17aca25da79122b1c373833fe58982f841a6c288b95d6a",
+          "taken_at": "2026-07-25T12:00:00"
+        },
+        {
+          "doc_type": "photo_closeup",
+          "image_hash": "bb2163cc844e5eb5",
+          "file_hash": "1f2f239649bf2d5e3054e8f91a8c49213d4f3fb4eface16b12a8043d2c39323b",
+          "taken_at": "2026-07-25T12:00:00"
+        }
+      ],
+      "expected": {
+        "flags": [
+          "total_mismatch"
+        ],
+        "total_loss": false,
+        "eligible_amount": "58750.00",
+        "payable": "53750.00"
+      }
+    },
+    {
+      "claim_number": "CLM-2026-0008",
+      "scenario": "total_loss",
+      "policy": {
+        "policy_number": "MOT-2026-0008",
+        "start_date": "2026-05-06T10:00:00",
+        "sum_insured": "500000.00",
+        "deductible": "1000.00",
+        "copay_percent": "0.00",
+        "vehicle_year": 2020
+      },
+      "loss_date": "2026-08-14T10:00:00",
+      "claimed_amount": "400000.00",
+      "estimate": {
+        "parts_metal": 250000,
+        "parts_other": 75000,
+        "labour": 75000,
+        "stated_total": 400000
+      },
+      "documents": [
+        {
+          "doc_type": "photo_front",
+          "image_hash": "da964d6c9f966038",
+          "file_hash": "9546393635dafe6be3186fefa535cb6f5e921d3b46a1b9c66b7e6631a423dab0",
+          "taken_at": "2026-08-14T12:00:00"
+        },
+        {
+          "doc_type": "photo_rear",
+          "image_hash": "8f10c1811e66f6ef",
+          "file_hash": "407d8285aa8e2b97373aa08db749f291bf37531fc090287308f037b4ae0f26c2",
+          "taken_at": "2026-08-14T12:00:00"
+        },
+        {
+          "doc_type": "photo_left",
+          "image_hash": "c70f38f8e1c01e97",
+          "file_hash": "7aaaaf550bd5f03a6c1a2d460e44c7c374a582b073b2dbde8ef7b66ca258266b",
+          "taken_at": "2026-08-14T12:00:00"
+        },
+        {
+          "doc_type": "photo_right",
+          "image_hash": "e16934d60ba9e4a7",
+          "file_hash": "d77c8e212fbef73d53a5b04a31f0e33cf50a9c346076f74518122dcf123e2702",
+          "taken_at": "2026-08-14T12:00:00"
+        },
+        {
+          "doc_type": "photo_closeup",
+          "image_hash": "95f2484efe2056b5",
+          "file_hash": "3d32cfa39d258c35408e72a2db9c91295997512aa004a9742b1f61420eae661f",
+          "taken_at": "2026-08-14T12:00:00"
+        }
+      ],
+      "expected": {
+        "flags": [],
+        "total_loss": true,
+        "eligible_amount": "500000.00",
+        "payable": "499000.00"
+      }
+    },
+    {
+      "claim_number": "CLM-2026-0009",
+      "scenario": "duplicate_claim",
+      "policy": {
+        "policy_number": "MOT-2026-0001",
+        "start_date": "2026-05-06T10:00:00",
+        "sum_insured": "700000.00",
+        "deductible": "1000.00",
+        "copay_percent": "0.00",
+        "vehicle_year": 2023
+      },
+      "loss_date": "2026-08-14T10:00:00",
+      "claimed_amount": "24000.00",
+      "estimate": {
+        "parts_metal": 15000,
+        "parts_other": 3000,
+        "labour": 6000,
+        "stated_total": 24000
+      },
+      "documents": [
+        {
+          "doc_type": "photo_front",
+          "image_hash": "cb6b4a5a03a5f478",
+          "file_hash": "8e1f9138fc6f1740206c42b081d373048c8ed073d5466209bf84658c869c8f0a",
+          "taken_at": "2026-08-14T12:00:00"
+        },
+        {
+          "doc_type": "photo_rear",
+          "image_hash": "ec037387ea74d483",
+          "file_hash": "69751d0131aa5ee6a6b36e13b6627ecb1f83aa1255b61bf6c4bb4658560b19bc",
+          "taken_at": "2026-08-14T12:00:00"
+        },
+        {
+          "doc_type": "photo_left",
+          "image_hash": "da3d1a4ea44ab5b1",
+          "file_hash": "2e4adde66c91e6e7874d7d2d22c12ca43151340393ad0691f6bdcc2984594bb8",
+          "taken_at": "2026-08-14T12:00:00"
+        },
+        {
+          "doc_type": "photo_right",
+          "image_hash": "e653a39d2e7ac034",
+          "file_hash": "e00ffc3338ed7bef264fdab603fb43725afc693e13f02c7870fbf9f498dbc8d6",
+          "taken_at": "2026-08-14T12:00:00"
+        },
+        {
+          "doc_type": "photo_closeup",
+          "image_hash": "b8c398e236cf1969",
+          "file_hash": "ddf4ecb062f57ab6b9e9a15ab0b8a9540472cd3aa8271ddb4f7c400bd12e721f",
+          "taken_at": "2026-08-14T12:00:00"
+        }
+      ],
+      "expected": {
+        "flags": [
+          "duplicate_claim"
+        ],
+        "total_loss": false,
+        "eligible_amount": "18750.00",
+        "payable": "17750.00"
+      }
+    },
+    {
+      "claim_number": "CLM-2026-0010",
+      "scenario": "duplicate_claim",
+      "policy": {
+        "policy_number": "MOT-2026-0001",
+        "start_date": "2026-05-06T10:00:00",
+        "sum_insured": "700000.00",
+        "deductible": "1000.00",
+        "copay_percent": "0.00",
+        "vehicle_year": 2023
+      },
+      "loss_date": "2026-08-14T10:00:00",
+      "claimed_amount": "24000.00",
+      "estimate": {
+        "parts_metal": 15000,
+        "parts_other": 3000,
+        "labour": 6000,
+        "stated_total": 24000
+      },
+      "documents": [
+        {
+          "doc_type": "photo_front",
+          "image_hash": "b1da5a274e8472f1",
+          "file_hash": "117236f98f4c3a164ca2a6e8d0cbd496134d7468b1eab1a20acf480a90c5fe0a",
+          "taken_at": "2026-08-14T12:00:00"
+        },
+        {
+          "doc_type": "photo_rear",
+          "image_hash": "d833e89da7c4868e",
+          "file_hash": "1157add0272bc3bc30cce474f78cef5b7d44568c6cdb61efaba4682fd5f4abd4",
+          "taken_at": "2026-08-14T12:00:00"
+        },
+        {
+          "doc_type": "photo_left",
+          "image_hash": "f1c15a314ddf2368",
+          "file_hash": "689469693fb67b3f97d9af8940a74162c46f2edf9f46ddfd9bf1364f9ed5e34b",
+          "taken_at": "2026-08-14T12:00:00"
+        },
+        {
+          "doc_type": "photo_right",
+          "image_hash": "b45b92ad5aa66592",
+          "file_hash": "dfe733b45cfa57384c5b8b8c4acdbd1b60f712362c6ef5110e65a982a1ee1904",
+          "taken_at": "2026-08-14T12:00:00"
+        },
+        {
+          "doc_type": "photo_closeup",
+          "image_hash": "b3fc4a3b3584b922",
+          "file_hash": "847badb4046115a2f8a5fcbf57bf16c0b829093bfe087311e94a49c03b890d43",
+          "taken_at": "2026-08-14T12:00:00"
+        }
+      ],
+      "expected": {
+        "flags": [
+          "duplicate_claim"
+        ],
+        "total_loss": false,
+        "eligible_amount": "18750.00",
+        "payable": "17750.00"
+      }
+    },
+    {
+      "claim_number": "CLM-2026-0011",
+      "scenario": "reused_image",
+      "policy": {
+        "policy_number": "MOT-2026-0002",
+        "start_date": "2026-05-06T10:00:00",
+        "sum_insured": "300000.00",
+        "deductible": "5000.00",
+        "copay_percent": "0.00",
+        "vehicle_year": 2023
+      },
+      "loss_date": "2026-07-20T10:00:00",
+      "claimed_amount": "32000.00",
+      "estimate": {
+        "parts_metal": 20000,
+        "parts_other": 4000,
+        "labour": 8000,
+        "stated_total": 32000
+      },
+      "documents": [
+        {
+          "doc_type": "photo_front",
+          "image_hash": "8b6893b5f4424e9e",
+          "file_hash": "c32ea08be9b8d124db2fc3466a561cb3b903f2530df663a1c95fd469bb658b0d",
+          "taken_at": "2026-07-20T12:00:00"
+        },
+        {
+          "doc_type": "photo_rear",
+          "image_hash": "8de9ef01e096923e",
+          "file_hash": "4287bd957f56e163060bdd5a26db1e9276df7f9a4ad8d8481acb8aa328e66056",
+          "taken_at": "2026-07-20T12:00:00"
+        },
+        {
+          "doc_type": "photo_left",
+          "image_hash": "b038cca787ce6752",
+          "file_hash": "31d587efd7b138433cb38086d09e0ca652fd60e88956c41ab0f3e0ca1f711f31",
+          "taken_at": "2026-07-20T12:00:00"
+        },
+        {
+          "doc_type": "photo_right",
+          "image_hash": "8f3ed04e2e8db4a1",
+          "file_hash": "913eafd16b3608eee56b5af8aa8385988156afc3fed280362f6950cb88f91838",
+          "taken_at": "2026-07-20T12:00:00"
+        },
+        {
+          "doc_type": "photo_closeup",
+          "image_hash": "b0c328cfdcd44f0b",
+          "file_hash": "6ce7a2948dcb6931ae419fc0953636a0530eb1b11997e97c856fc256332aa483",
+          "taken_at": "2026-07-20T12:00:00"
+        }
+      ],
+      "expected": {
+        "flags": [
+          "reused_image"
+        ],
+        "total_loss": false,
+        "eligible_amount": "25000.00",
+        "payable": "20000.00"
+      }
+    },
+    {
+      "claim_number": "CLM-2026-0012",
+      "scenario": "exif_date_mismatch",
+      "policy": {
+        "policy_number": "MOT-2026-0003",
+        "start_date": "2026-05-06T10:00:00",
+        "sum_insured": "900000.00",
+        "deductible": "1000.00",
+        "copay_percent": "0.00",
+        "vehicle_year": 2022
+      },
+      "loss_date": "2026-08-24T10:00:00",
+      "claimed_amount": "45000.00",
+      "estimate": {
+        "parts_metal": 28000,
+        "parts_other": 6000,
+        "labour": 11000,
+        "stated_total": 45000
+      },
+      "documents": [
+        {
+          "doc_type": "photo_front",
+          "image_hash": "d818e287077738fc",
+          "file_hash": "5572c59cb4719245fa9a132baf999355a40c2cdab11a527b39147d471e28eac1",
+          "taken_at": "2026-08-04T12:00:00"
+        },
+        {
+          "doc_type": "photo_rear",
+          "image_hash": "a969a3ad7487561c",
+          "file_hash": "906c4964586bd91ec24bc16e8fb3165d4767c2fd88b493e57a8b417a93847fa7",
+          "taken_at": "2026-08-04T12:00:00"
+        },
+        {
+          "doc_type": "photo_left",
+          "image_hash": "e96969398632d636",
+          "file_hash": "236fbb469afdf92df49eedc70dd3aa7902881f51ce207698e74978bc20f9f0c9",
+          "taken_at": "2026-08-04T12:00:00"
+        },
+        {
+          "doc_type": "photo_right",
+          "image_hash": "87e1f8e20f076c9a",
+          "file_hash": "a95e002eee32656d3a4888ea3a5d13bf03ae64dc31a8e5a8d7707023ea98eec2",
+          "taken_at": "2026-08-04T12:00:00"
+        },
+        {
+          "doc_type": "photo_closeup",
+          "image_hash": "cbec16b56153b912",
+          "file_hash": "c2b09a686154cc38808e18e708edf25392fde4c01b77c0b1126122bd9a4bf74f",
+          "taken_at": "2026-08-04T12:00:00"
+        }
+      ],
+      "expected": {
+        "flags": [
+          "exif_date_mismatch"
+        ],
+        "total_loss": false,
+        "eligible_amount": "32200.00",
+        "payable": "31200.00"
+      }
+    }
+  ]
+}

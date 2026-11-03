@@ -1,0 +1,41 @@
+# Web
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic-settings
+
+# Database
+sqlalchemy
+psycopg[binary,pool]
+pgvector
+
+# Auth
+pyjwt
+bcrypt
+
+# Agents
+langgraph
+langgraph-checkpoint-postgres
+langchain
+langchain-groq
+langchain-google-genai
+langchain-huggingface
+sentence-transformers
+langsmith
+
+# MCP (keep below version 2)
+mcp<2
+langchain-mcp-adapters
+
+# Images and OCR
+pillow
+opencv-python-headless
+pytesseract
+pymupdf
+imagehash
+
+# Development and testing
+pytest
+httpx
+faker
+ragas

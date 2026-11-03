@@ -1,0 +1,152 @@
+[
+  {
+    "file": "bill_01.png",
+    "garage": "City Auto Works",
+    "date": "2026-01-15",
+    "claim_reference": "CLM-2026-0002",
+    "items": [
+      {
+        "label": "Metal parts",
+        "amount": 40000
+      },
+      {
+        "label": "Other parts",
+        "amount": 10000
+      },
+      {
+        "label": "Labour",
+        "amount": 15000
+      }
+    ],
+    "stated_total": 65000,
+    "total_is_wrong": false,
+    "variants": [
+      "bill_01_blur.png",
+      "bill_01_rotated.png",
+      "bill_01_shadow.jpg"
+    ]
+  },
+  {
+    "file": "bill_02.png",
+    "garage": "Sharma Motors",
+    "date": "2026-01-15",
+    "claim_reference": "CLM-2026-0003",
+    "items": [
+      {
+        "label": "Metal parts",
+        "amount": 22000
+      },
+      {
+        "label": "Other parts",
+        "amount": 5000
+      },
+      {
+        "label": "Labour",
+        "amount": 9000
+      }
+    ],
+    "stated_total": 36000,
+    "total_is_wrong": false,
+    "variants": [
+      "bill_02_blur.png",
+      "bill_02_rotated.png",
+      "bill_02_shadow.jpg"
+    ]
+  },
+  {
+    "file": "bill_03.png",
+    "garage": "Delhi Car Care",
+    "date": "2026-01-15",
+    "claim_reference": "CLM-2026-0004",
+    "items": [
+      {
+        "label": "Metal parts",
+        "amount": 18000
+      },
+      {
+        "label": "Other parts",
+        "amount": 4000
+      },
+      {
+        "label": "Labour",
+        "amount": 8000
+      }
+    ],
+    "stated_total": 30000,
+    "total_is_wrong": false,
+    "variants": [
+      "bill_03_blur.png",
+      "bill_03_rotated.png",
+      "bill_03_shadow.jpg"
+    ]
+  },
+  {
+    "file": "bill_04.png",
+    "garage": "Prime Garage",
+    "date": "2026-01-15",
+    "claim_reference": "CLM-2026-0005",
+    "items": [
+      {
+        "label": "Metal parts",
+        "amount": 55000
+      },
+      {
+        "label": "Other parts",
+        "amount": 12000
+      },
+      {
+        "label": "Labour",
+        "amount": 20000
+      }
+    ],
+    "stated_total": 92000,
+    "total_is_wrong": true,
+    "variants": []
+  },
+  {
+    "file": "bill_05.png",
+    "garage": "Shree Auto Repairs",
+    "date": "2026-01-15",
+    "claim_reference": "CLM-2026-0006",
+    "items": [
+      {
+        "label": "Metal parts",
+        "amount": 26000
+      },
+      {
+        "label": "Other parts",
+        "amount": 6000
+      },
+      {
+        "label": "Labour",
+        "amount": 10000
+      }
+    ],
+    "stated_total": 42000,
+    "total_is_wrong": false,
+    "variants": []
+  },
+  {
+    "file": "bill_06.png",
+    "garage": "City Auto Works",
+    "date": "2026-01-15",
+    "claim_reference": "CLM-2026-0007",
+    "items": [
+      {
+        "label": "Metal parts",
+        "amount": 30000
+      },
+      {
+        "label": "Other parts",
+        "amount": 8000
+      },
+      {
+        "label": "Labour",
+        "amount": 12000
+      }
+    ],
+    "stated_total": 50000,
+    "total_is_wrong": false,
+    "variants": []
+  }
+]
